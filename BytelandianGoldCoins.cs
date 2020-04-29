@@ -5,10 +5,10 @@ public class Program
 	public static void Main()
 	{
 		string line;
-        while ((line = Console.ReadLine()) != null)
-        {
-            Console.WriteLine(dollarMemoi(int.Parse(line)));
-        } 					
+		while ((line = Console.ReadLine()) != null)
+		{
+		    Console.WriteLine(dollarMemoi(int.Parse(line)));
+		} 					
 	}
 	
 	/* Recursion
